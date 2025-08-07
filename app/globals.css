@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blueprint-grid {
+  background-image: 
+    linear-gradient(rgba(135, 206, 235, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(135, 206, 235, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'GeistMono', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A2342;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #87CEEB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFA500;
+}
